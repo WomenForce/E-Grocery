@@ -1,0 +1,32 @@
+'use strict'
+
+var base = module.superModule;
+
+module.exports = function (object, quantity, minOrderQuantity, availabilityModel){
+    base.call(this, object, quantity, minOrderQuantity, availabilityModel);
+
+    object.defineProperty(object, 'availibility', {
+    enumerable: true,
+    value: (function (){
+        var availibility = object.availibility || {};
+        availibility.isBackorder = false;
+        var productQuantity =  quantity ? parseInt(quantity, 10) : minOrderQuantity;
+        var availibilityModelLevels = availibilityModel.getAvailabilityLevels(productQuantity);
+        if(availabilityModelLevels.backorder.value > 0 && 
+            availibilityModelLevels.backorder.value === productQuantity) {
+
+            }
+            return availibility;
+        }())
+
+    })
+    
+};
+
+
+
+
+
+
+
+
