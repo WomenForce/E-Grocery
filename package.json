@@ -83,7 +83,7 @@
     "mocha": "^5.2.0",
     "mocha-junit-reporter": "^1.23.1",
     "moment-timezone": "^0.5.26",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "postcss-loader": "^2.1.6",
     "properties-parser": "^0.3.1",
     "proxyquire": "1.7.4",
@@ -114,7 +114,10 @@
     "last 2 versions",
     "ie >= 10"
   ],
-  "packageName": "app_storefront_base",
+  "packageName": "app_custom_siteEgrocery",
+  "paths": {
+    "base": "./cartridges/app_storefront_base/"
+  },
   "babel": {
     "presets": [
       "env"
