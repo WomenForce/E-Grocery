@@ -17,6 +17,7 @@ Para visualizar a descrição completa do projeto, siga [E-grocery](/assets/desa
    * [Público-alvo](#publico-alvo)
    * [Aprendizados](#aprendizados)
    * [Arquitetura Model View Controller](#arquitetura)
+   * [Metodologia](#metodologia)
    * [Instalação](#instalação)
       * [Pre Requisitos](#pré-requisitos)
       * [Tecnologias](#tecnologias)
@@ -46,45 +47,62 @@ Durante o curso e desenvolvimento do projeto compreendemos a aplicação dos con
 
         Arquitetura MVC
         |
-        \--ðŸ“‚ HOGARAPIFINAL
+        \--📂 E-GROCERY-MAIN
             |   README.md  
-            |   .env
-            |   .gitignore
-            |   package-lock.json
-            |   package.json
-            |   **server.js**
-            \--ðŸ“‚ node_modules
-            \--ðŸ“‚ assets
-            \--ðŸ“‚src
+            |   dw.json
+            |   codeconcept.config.js
+            |   
+            \-- node_modules
+
+            \--📂--cartridges
+                |  
+                |  
                 |
-                |   **app.js**
                 |
-                ðŸ“‚---configs
-                |   **dbconnect.js
+                📂---app_custom_siteEgrocery
+                |     --cartridge 
+                |      -client
+                |      -config
+                |      -controllers
+                |      -experience
+                |      -forms
+                |      -models
+                |      -scripts
+                |      -static
+                |      -templates
+                |      -app_custom_siteEgrocery.properties    
                 |
-                ðŸ“‚---controller
-                |       **blogController.js
-                |       institutoController.js
-                |       solicitanteController.js
-                |       voluntarioController.js**
-                |
-                ðŸ“‚---model
-                |       **blogSchema.js
-                |       institutoSchema.js
-                |       solicitanteSchema.js
-                |       voluntarioSchema.js**
+                📂---app_storefront_base
+                |     --cartridge 
+                |      -client
+                |      -config
+                |      -controllers
+                |      -experience
+                |      -forms
+                |      -models
+                |      -scripts
+                |      -static
+                |      -templates
+                |      -app_storefront_base.properties           
                 |       
-                |
-                ðŸ“‚---routes
-                |       **blogRoutes.js
-                |       institutoRoutes.js
-                |       solicitanteRoutes.js
-                |       voluntarioRoutes.js**
-                |__      teste.js**
+                📂---modules
+                |      -server
+                |      *server.js"       
+                |       
+                |__      
 
 
 
 
+## Metodologia
+
+No primeiro momento realizamos o estudo do Case Business e desenvolvemos as estratégias para a construção da Store E-grocery.
+
+* Quadro Kanban via trello para definição das atribuições
+* Consulta a documentação SFCC
+* Pair Programming para escrita de código e visualização de erros
+* Avaliação de implementação e adaptação do processo de desenvolvimento da loja online E-grocery
+* Compartilhamento de código via pull-request em repositório GitHub
 
 ## Instalação
 * Para realizar download do projeto, siga as instruções;
@@ -96,7 +114,7 @@ Antes de começar, você vai precisar ter instalado em sua mÃ¡quina as seguint
 Além disso, é importante possuir o editor de código [VSCode](https://code.visualstudio.com/)
 
 
-# Tecnologias
+## Tecnologias
 
 Para a construção do projeto, as seguintes tecnologias utilizadas foram:
 
@@ -109,7 +127,7 @@ Para a construção do projeto, as seguintes tecnologias utilizadas foram:
 - [x] [Prophet Extension]()
 
 
-# Features
+## Features
 
 Funcionalidades da aplicação
 
@@ -129,17 +147,17 @@ Funcionalidades da aplicação
 
 
 
-# Sobre Storefront Reference Architecture
+## Sobre Storefront Reference Architecture
 
 SFRA possui um cartridge base (`app_storefront_base`) fornecido pela Commerce Cloud que nunca pode ser diretamente customizado ou editado. Os cartridges customizados são colocados em camadas no início do cartridge base. Essa mudança visa permitir a adoção mais fácil de novos recursos e correções de bugs
 Storefront Reference Architecture fornece um [plugin_applepay](https://github.com/SalesforceCommerceCloud/plugin-applepay) plugin cartridge para demonstrar como é a customização em camadas para a aplicação de referência.
 
 
-# The latest version
+### The latest version
 
 The latest version of SFRA is 5.3.0
 
-# Getting Started
+### Getting Started
 
 1. Clone this repository.
 
@@ -165,10 +183,10 @@ The latest version of SFRA is 5.3.0
 
 8. You should now be ready to navigate to and use your site.
 
-# NPM scripts
+### NPM scripts
 Use the provided NPM scripts to compile and upload changes to your Sandbox.
 
-## Compiling your application
+#### Compiling your application
 
 * `npm run compile:scss` - Compiles all .scss files into CSS.
 * `npm run compile:js` - Compiles all .js files and aggregates them.
@@ -176,22 +194,22 @@ Use the provided NPM scripts to compile and upload changes to your Sandbox.
 
  If you are having an issue compiling scss files, try running 'npm rebuild node-sass' from within your local repo.
 
-## Linting your code
+### Linting your code
 
 `npm run lint` - Execute linting for all JavaScript and SCSS files in the project. You should run this command before committing your code.
 
-## Watching for changes and uploading
+### Watching for changes and uploading
 
 `npm run watch` - Watches everything and recompiles (if necessary) and uploads to the sandbox. Requires a valid `dw.json` file at the root that is configured for the sandbox to upload.
 
-## Uploading
+#### Uploading
 
 `npm run uploadCartridge` - Will upload `app_storefront_base`, `modules` and `bm_app_storefront_base` to the server. Requires a valid `dw.json` file at the root that is configured for the sandbox to upload.
 
 `npm run upload <filepath>` - Will upload a given file to the server. Requires a valid `dw.json` file.
 
-# Testing
-## Running unit tests
+## Testing
+### Running unit tests
 
 You can run `npm test` to execute all unit tests in the project. Run `npm run cover` to get coverage information. Coverage will be available in `coverage` folder under root directory.
 
@@ -201,7 +219,7 @@ You can run `npm test` to execute all unit tests in the project. Run `npm run co
 3. Examine the report that is generated. For example: `Writing coverage reports at [/Users/yourusername/SCC/sfra/coverage]`
 3. Navigate to this directory on your local machine, open up the index.html file. This file contains a detailed report.
 
-## Running integration tests
+### Running integration tests
 Integration tests are located in the `storefront-reference-architecture/test/integration` directory.
 
 To run integration tests you can use the following command:
@@ -222,20 +240,19 @@ You can also supply URL of the sandbox on the command line:
 npm run test:integration -- --baseUrl devxx-sitegenesis-dw.demandware.net
 ```
 
-### [Contributing to SFRA](./CONTRIBUTING.md)
+#### [Contributing to SFRA](./CONTRIBUTING.md)
 
-#### Page Designer Components for Storefront Reference Architecture
+    Page Designer Components for Storefront Reference Architecture
 See: [Page Designer Components](./page-designer-components.md)
 
 
-# Projeto em Construção
+## Projeto em Construção
 
         Autenticação
         Sistema de compras com cestas
         Front End
         Área do comerciante
 
-# Agradecimentos
+## Agradecimentos
 
-Foram longas semanas de muito aprendizado e precisamos agradecer a todas as pessoas que foram responsáveis por nosso crescimento profissional e pessoa. Sem dúvida  Priscila, Deah, Gama Academy
-Accenture, pela oportunidade e iniciativa!!!
+Foram longas semanas de muito aprendizado e precisamos agradecer a todas as pessoas que foram responsáveis por nosso crescimento profissional e pessoal. Sem dúvida isso não seria possível sem a grande mentoria e ajuda de nossas queridas Priscila (grande profissional e uma pessoa incrível) e Deah (sempre um amor e disposta a nos ajudar). Também agradecemos a oportunidade de aprendizado e parabenizamos a iniciativa da Gama Academy & Accenture!!!
