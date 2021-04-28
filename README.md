@@ -1,11 +1,138 @@
-# Storefront Reference Architecture (SFRA)
+![iconEgrocery](/assets/egrocery.png)
 
-This is a repository for the Storefront Reference Architecture reference application.
+# E-grocery Salesforce
+## Descrição
+Online Store desenvolvida pelo grupo WomenForce como Projeto Final para a conclusão do curso de Salesforce Commerce Cloud oferecido pela  [Gama Academy](https://www.gama.academy/?gclid=CjwKCAjwj6SEBhAOEiwAvFRuKJi-KxKqLf8_ps8xhUZCthaOiIdt6Q9LiqhmeVCSfQou7_ojhwwY-xoCPrMQAvD_BwE) & [Accenture](https://www.accenture.com/br-pt)
 
-Storefront Reference Architecture has a base cartridge (`app_storefront_base`) provided by Commerce Cloud that is never directly customized or edited. Instead, customization cartridges are layered on top of the base cartridge. This change is intended to allow for easier adoption of new features and bug fixes.
-Storefront Reference Architecture supplies an [plugin_applepay](https://github.com/SalesforceCommerceCloud/plugin-applepay) plugin cartridge to demonstrate how to layer customizations for the reference application.
+Para visualizar a descrição completa do projeto, siga [E-grocery](/assets/desafio.pdf)
 
-Your feedback on the ease-of-use and limitations of this new architecture is invaluable during the developer preview. Particularly, feedback on any issues you encounter or workarounds you develop for efficiently customizing the base cartridge without editing it directly.
+   > A ACN OF e suas 20 lojas espalhadas na grande São Paulo fazem a diferença. Com produtos organizados, atendentes super dispostos a ajudar, e com um ambiente tranquilo, amigável e aconchegante. Nada comparado a fazer compra em um mercado tradicional. Fazer compras na ACN OF virou hobby dos paulistanos aos sábados e domingos. Nesse sentido, O Business Case faz referência a chegada repentina e desastrosa do Covid-19, pois é fato que muitas empresas tiveram se reinventar para continuar entregando alimentos aos seus clientes, e com a ACN OF não foi diferente
+   >Pensando nisso, A CEO da ACN OF, Julia Silva, precisa de uma solução rápida e eficiente para o desenvolvimento de uma Online Store para vender seus produtos orgânicos e continuar a manter a boa reputação da E-grocery no mercado.
+
+
+# Sumário
+=================
+<!--ts-->
+   * [Objetivos](#objetivos)
+   * [Público-alvo](#publico-alvo)
+   * [Aprendizados](#aprendizados)
+   * [Arquitetura Model View Controller](#arquitetura)
+   * [Instalação](#instalação)
+      * [Pre Requisitos](#pré-requisitos)
+      * [Tecnologias](#tecnologias)
+      * [Features](#features)
+   * [Sobre SFRA](#sobre-storefront-reference-architecture)
+   * [Agradecimentos](#agradecimentos)
+<!--te-->
+
+## Objetivos
+
+- Desenvolver uma Online Store para venda e compra de produtos orgânicos;
+
+
+## Publico-alvo
+Agentes interessados em consumir ou conhecer a loja:
+- Clientes. 
+- Novos Consumidores.
+- Fornecedores.
+
+## Aprendizados
+
+Para a execução do projeto final, desenvolvemos uma loja online para venda de produtos orgânicos. Para acessar e tratar as operações, o código foi organizado em uma Arquitetura embasada no sistema Model View Controller (MVC) e o Front da store foi desenvolvido e estilizado com html e Sass
+Durante o curso e desenvolvimento do projeto compreendemos a aplicação dos conceitos de programação nos diferentes ambientes da Salesforce Commerce Cloud e as possibilidades da ferramenta, sobretudo através da manipulação direto no Business Manager e Merchant Tools.
+
+
+## Arquitetura
+
+        Arquitetura MVC
+        |
+        \--ðŸ“‚ HOGARAPIFINAL
+            |   README.md  
+            |   .env
+            |   .gitignore
+            |   package-lock.json
+            |   package.json
+            |   **server.js**
+            \--ðŸ“‚ node_modules
+            \--ðŸ“‚ assets
+            \--ðŸ“‚src
+                |
+                |   **app.js**
+                |
+                ðŸ“‚---configs
+                |   **dbconnect.js
+                |
+                ðŸ“‚---controller
+                |       **blogController.js
+                |       institutoController.js
+                |       solicitanteController.js
+                |       voluntarioController.js**
+                |
+                ðŸ“‚---model
+                |       **blogSchema.js
+                |       institutoSchema.js
+                |       solicitanteSchema.js
+                |       voluntarioSchema.js**
+                |       
+                |
+                ðŸ“‚---routes
+                |       **blogRoutes.js
+                |       institutoRoutes.js
+                |       solicitanteRoutes.js
+                |       voluntarioRoutes.js**
+                |__      teste.js**
+
+
+
+
+
+## Instalação
+* Para realizar download do projeto, siga as instruções;
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua mÃ¡quina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Sass](https://sass-lang.com/install) instalado globalmente.
+Além disso, é importante possuir o editor de código [VSCode](https://code.visualstudio.com/)
+
+
+# Tecnologias
+
+Para a construção do projeto, as seguintes tecnologias utilizadas foram:
+
+- [x] [Salesforce Commerce cloud](https://www.salesforce.com/br)
+- [x] [SFRA](https://www.salesforce.com/br)
+- [x] [Git/Github](https://github.com/)
+- [x] [Node.js](https://nodejs.org/en/)
+- [x] [JavaScript](https://www.javascript.com/)
+- [x] [Sass]()
+- [x] [Prophet Extension]()
+
+
+# Features
+
+Funcionalidades da aplicação
+
+- [x] Front End - Content Slots
+- [x] Busca por alimentos
+- [x] Home com alimentos
+- [x] Carrinho de compras
+- [x] Button Whatsapp Contact Us
+- [x] Mapa com endereço para retirada de produtos
+- [x] Pagamento em Cartão
+- [x] Cestas para clientes
+- [x] Responsividade
+
+
+
+[![Badge](https://img.shields.io/badge/heroku-deploy-green)](https://api-hogar.herokuapp.com/) ![Badge](https://img.shields.io/github/forks/camilapessoa/hogarapifinal) ![Badge](https://img.shields.io/github/issues/camilapessoa/hogarapifinal) ![Badge](https://img.shields.io/github/stars/camilapessoa/hogarapifinal)
+
+
+
+# Sobre Storefront Reference Architecture
+
+SFRA possui um cartridge base (`app_storefront_base`) fornecido pela Commerce Cloud que nunca pode ser diretamente customizado ou editado. Os cartridges customizados são colocados em camadas no início do cartridge base. Essa mudança visa permitir a adoção mais fácil de novos recursos e correções de bugs
+Storefront Reference Architecture fornece um [plugin_applepay](https://github.com/SalesforceCommerceCloud/plugin-applepay) plugin cartridge para demonstrar como é a customização em camadas para a aplicação de referência.
 
 
 # The latest version
@@ -95,7 +222,20 @@ You can also supply URL of the sandbox on the command line:
 npm run test:integration -- --baseUrl devxx-sitegenesis-dw.demandware.net
 ```
 
-# [Contributing to SFRA](./CONTRIBUTING.md)
+### [Contributing to SFRA](./CONTRIBUTING.md)
 
-#Page Designer Components for Storefront Reference Architecture
+#### Page Designer Components for Storefront Reference Architecture
 See: [Page Designer Components](./page-designer-components.md)
+
+
+# Projeto em Construção
+
+        Autenticação
+        Sistema de compras com cestas
+        Front End
+        Área do comerciante
+
+# Agradecimentos
+
+Foram longas semanas de muito aprendizado e precisamos agradecer a todas as pessoas que foram responsáveis por nosso crescimento profissional e pessoa. Sem dúvida  Priscila, Deah, Gama Academy
+Accenture, pela oportunidade e iniciativa!!!
