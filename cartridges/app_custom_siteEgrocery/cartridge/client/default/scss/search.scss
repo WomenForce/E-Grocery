@@ -5,6 +5,11 @@
 @import "utilities/swatch";
 @import "components/categoryTiles";
 
+
+.search {
+    background-image: url(../images/search.jpg);
+}
+
 .refinement-bar {
     overflow: auto;
 
