@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pricebooks xmlns="http://www.demandware.com/xml/impex/pricebook/2006-10-31">
+    <pricebook>
+        <header pricebook-id="br_price_book">
+            <currency>BRL</currency>
+            <display-name xml:lang="x-default">br_price_book</display-name>
+            <online-flag>true</online-flag>
+        </header>
+
+        <price-tables>
+            <price-table product-id="000001">
+                <amount quantity="1">5.00</amount>
+            </price-table>
+
+            <price-table product-id="000002">
+                <amount quantity="1">8.00</amount>
+            </price-table>
+
+            <price-table product-id="000003">
+                <amount quantity="1">50.00</amount>
+            </price-table>
+
+            <price-table product-id="000004">
+                <amount quantity="1">6.00</amount>
+            </price-table>
+
+            <price-table product-id="000005">
+                <amount quantity="1">8.00</amount>
+            </price-table>
+
+            <price-table product-id="000006">
+                <amount quantity="1">8.00</amount>
+            </price-table>
+
+            <price-table product-id="000007">
+                <amount quantity="1">50.00</amount>
+            </price-table>
+
+            <price-table product-id="000008">
+                <amount quantity="1">50.00</amount>
+            </price-table>
+
+            <price-table product-id="000009">
+                <amount quantity="1">25.00</amount>
+            </price-table>
+
+            <price-table product-id="000010">
+                <amount quantity="1">4.00</amount>
+            </price-table>
+
+            <price-table product-id="000011">
+                <amount quantity="1">50.00</amount>
+            </price-table>
+
+            <price-table product-id="000012">
+                <amount quantity="1">30.00</amount>
+            </price-table>
+
+            <price-table product-id="000013">
+                <amount quantity="1">5.00</amount>
+            </price-table>
+
+            <price-table product-id="000014">
+                <amount quantity="1">12.00</amount>
+            </price-table>
+
+            <price-table product-id="000015">
+                <amount quantity="1">4.00</amount>
+            </price-table>
+
+            <price-table product-id="000016">
+                <amount quantity="1">5.00</amount>
+            </price-table>
+
+            <price-table product-id="000017">
+                <amount quantity="1">12.00</amount>
+            </price-table>
+
+            <price-table product-id="000018">
+                <amount quantity="1">12.00</amount>
+            </price-table>
+
+            <price-table product-id="000019">
+                <amount quantity="1">13.00</amount>
+            </price-table>
+
+            <price-table product-id="000020">
+                <amount quantity="1">14.00</amount>
+            </price-table>
+
+            <price-table product-id="Queijo Minas Padrão">
+                <amount quantity="1">5.00</amount>
+            </price-table>
+
+            <price-table product-id="acafrao">
+                <amount quantity="1">7.50</amount>
+            </price-table>
+
+            <price-table product-id="acelga">
+                <amount quantity="1">8.00</amount>
+            </price-table>
+
+            <price-table product-id="acem">
+                <amount quantity="1">50.00</amount>
+            </price-table>
+
+            <price-table product-id="alhoporo">
+                <amount quantity="1">12.50</amount>
+            </price-table>
+
+            <price-table product-id="banana">
+                <amount quantity="1">4.98</amount>
+            </price-table>
+
+            <price-table product-id="batataInglesa">
+                <amount quantity="1">8.50</amount>
+            </price-table>
+
+            <price-table product-id="boloChocolateComNozes">
+                <amount quantity="1">80.00</amount>
+            </price-table>
+
+            <price-table product-id="boloChocolateFit70Cacau">
+                <amount quantity="1">36.00</amount>
+            </price-table>
+
+            <price-table product-id="boloMescladoFit70Cacau">
+                <amount quantity="1">45.00</amount>
+            </price-table>
+
+            <price-table product-id="brie">
+                <amount quantity="1">15.00</amount>
+            </price-table>
+
+            <price-table product-id="cenoura">
+                <amount quantity="1">5.00</amount>
+            </price-table>
+
+            <price-table product-id="cesta12">
+                <amount quantity="1">55.00</amount>
+            </price-table>
+
+            <price-table product-id="cesta5">
+                <amount quantity="1">25.00</amount>
+            </price-table>
+
+            <price-table product-id="cesta8">
+                <amount quantity="1">40.00</amount>
+            </price-table>
+
+            <price-table product-id="file">
+                <amount quantity="1">50.00</amount>
+            </price-table>
+
+            <price-table product-id="frango">
+                <amount quantity="1">20.00</amount>
+            </price-table>
+
+            <price-table product-id="gengibre">
+                <amount quantity="1">5.50</amount>
+            </price-table>
+
+            <price-table product-id="gorgonzola">
+                <amount quantity="1">25.00</amount>
+            </price-table>
+
+            <price-table product-id="maca">
+                <amount quantity="1">5.98</amount>
+            </price-table>
+
+            <price-table product-id="mamao">
+                <amount quantity="1">3.48</amount>
+            </price-table>
+
+            <price-table product-id="minaspadrao">
+                <amount quantity="1">5.00</amount>
+            </price-table>
+
+            <price-table product-id="ovobranco">
+                <amount quantity="1">8.00</amount>
+            </price-table>
+
+            <price-table product-id="ovocaipira">
+                <amount quantity="1">15.00</amount>
+            </price-table>
+
+            <price-table product-id="ovocodorna">
+                <amount quantity="1">12.00</amount>
+            </price-table>
+
+            <price-table product-id="rucula">
+                <amount quantity="1">5.00</amount>
+            </price-table>
+
+            <price-table product-id="tomate">
+                <amount quantity="1">5.00</amount>
+            </price-table>
+
+            <price-table product-id="tomilho">
+                <amount quantity="1">6.98</amount>
+            </price-table>
+
+            <price-table product-id="tortaBaunilhaComMorango">
+                <amount quantity="1">50.00</amount>
+            </price-table>
+
+        </price-tables>
+    </pricebook>
+</pricebooks>

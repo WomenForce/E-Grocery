@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="egrocery_products_master">
+    <header>
+        <image-settings>
+            <internal-location base-path="/"/>
+            <view-types>
+                <view-type>large</view-type>
+                <view-type>medium</view-type>
+                <view-type>small</view-type>
+                <view-type>swatch</view-type>
+            </view-types>
+            <alt-pattern>${productname}</alt-pattern>
+            <title-pattern>${productname}</title-pattern>
+        </image-settings>
+    </header>
+
+    <category category-id="root">
+        <display-name xml:lang="x-default">E-Grocery Catalog</display-name>
+        <description xml:lang="x-default">Catálogo de Produtos E-Grocery</description>
+        <online-flag>true</online-flag>
+        <template/>
+        <page-attributes/>
+    </category>
+
+    <category category-id="carnesAves">
+        <display-name xml:lang="x-default">Carnes e Aves</display-name>
+        <online-flag>true</online-flag>
+        <online-from>2021-04-21T03:00:00.000Z</online-from>
+        <online-to>2021-12-21T03:00:00.000Z</online-to>
+        <parent>root</parent>
+        <template/>
+        <sitemap-included-flag>true</sitemap-included-flag>
+        <page-attributes>
+            <page-title xml:lang="x-default">Carnes e Aves</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">carnee.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="cestas">
+        <display-name xml:lang="x-default">Cestas</display-name>
+        <online-flag>true</online-flag>
+        <online-from>2021-04-21T03:00:00.000Z</online-from>
+        <online-to>2021-12-21T03:00:00.000Z</online-to>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cestas.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="frutas">
+        <display-name xml:lang="x-default">Frutas</display-name>
+        <online-flag>true</online-flag>
+        <online-from>2021-04-21T03:00:00.000Z</online-from>
+        <online-to>2021-12-21T03:00:00.000Z</online-to>
+        <parent>root</parent>
+        <template/>
+        <page-attributes>
+            <page-title xml:lang="x-default">Frutas</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">frutas.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="legumes">
+        <display-name xml:lang="x-default">Legumes</display-name>
+        <description xml:lang="x-default">Legumes frescos</description>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes>
+            <page-title xml:lang="x-default">Legumes</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">legumes.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="maisVendidos">
+        <display-name xml:lang="x-default">Produtos Mais Vendidos</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <sitemap-included-flag>true</sitemap-included-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">verduras.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="oferta">
+        <display-name xml:lang="x-default">Ofertas</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+    </category>
+
+    <category category-id="ovos">
+        <display-name xml:lang="x-default">Ovos</display-name>
+        <online-flag>true</online-flag>
+        <online-from>2021-04-21T03:00:00.000Z</online-from>
+        <online-to>2021-12-21T03:00:00.000Z</online-to>
+        <parent>root</parent>
+        <template/>
+        <page-attributes>
+            <page-title xml:lang="x-default">Ovos</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">ovos.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="queijos">
+        <display-name xml:lang="x-default">Queijos</display-name>
+        <online-flag>true</online-flag>
+        <online-from>2021-04-21T03:00:00.000Z</online-from>
+        <online-to>2021-12-21T03:00:00.000Z</online-to>
+        <parent>root</parent>
+        <template/>
+        <sitemap-included-flag>true</sitemap-included-flag>
+        <page-attributes>
+            <page-title xml:lang="x-default">Queijos</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">queijo.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="temperosDiferenciados">
+        <display-name xml:lang="x-default">Temperos Diferenciados</display-name>
+        <online-flag>true</online-flag>
+        <online-from>2021-04-21T03:00:00.000Z</online-from>
+        <online-to>2021-12-21T03:00:00.000Z</online-to>
+        <parent>root</parent>
+        <template/>
+        <page-attributes>
+            <page-title xml:lang="x-default">Temperos Diferenciados</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">temperos.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="tortasBolosFit">
+        <display-name xml:lang="x-default">Tortas e Bolos Fit</display-name>
+        <online-flag>true</online-flag>
+        <online-from>2021-04-21T03:00:00.000Z</online-from>
+        <online-to>2021-12-21T03:00:00.000Z</online-to>
+        <parent>root</parent>
+        <template/>
+        <sitemap-included-flag>true</sitemap-included-flag>
+        <page-attributes>
+            <page-title xml:lang="x-default">Tortas e Bolos Fit</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">bolo.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="verduras">
+        <display-name xml:lang="x-default">Verduras</display-name>
+        <online-flag>true</online-flag>
+        <online-from>2021-04-21T03:00:00.000Z</online-from>
+        <online-to>2021-12-21T03:00:00.000Z</online-to>
+        <parent>root</parent>
+        <template/>
+        <page-attributes>
+            <page-title xml:lang="x-default">Verduras</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">verduras.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <product product-id="Alface">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Alface fresco</display-name>
+        <long-description xml:lang="x-default">teste teste</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>true</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="isSale">true</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="alface">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">alface crespa</display-name>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <online-from>2021-04-21T03:00:00.000Z</online-from>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product-option option-id="productsBasket">
+        <display-name xml:lang="pt-BR">CestaCustomizada</display-name>
+        <sort-mode>price</sort-mode>
+    </product-option>
+
+    <product-option option-id="resolution">
+        <display-name xml:lang="x-default">rucula</display-name>
+        <image>rucula.jpg</image>
+        <sort-mode>price</sort-mode>
+        <option-values>
+            <option-value value-id="rucula" default="true">
+                <option-value-prices>
+                    <option-value-price currency="BRL">4.99</option-value-price>
+                </option-value-prices>
+            </option-value>
+        </option-values>
+    </product-option>
+
+    <category-assignment category-id="carnesAves" product-id="000003">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="carnesAves" product-id="000011">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="carnesAves" product-id="000012">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="cestas" product-id="cesta12">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="cestas" product-id="cesta5">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="cestas" product-id="cesta8">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="000005">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="000015">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="000016">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="legumes" product-id="000006"/>
+
+    <category-assignment category-id="legumes" product-id="000010"/>
+
+    <category-assignment category-id="legumes" product-id="tomate"/>
+
+    <category-assignment category-id="maisVendidos" product-id="000002">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="maisVendidos" product-id="000004">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="maisVendidos" product-id="000006">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="maisVendidos" product-id="000010">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="maisVendidos" product-id="rucula">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="maisVendidos" product-id="tomate">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="ovos" product-id="000018">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="ovos" product-id="000019">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="ovos" product-id="000020">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="queijos" product-id="000009">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="queijos" product-id="000014">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="queijos" product-id="000017">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+
+    <category-assignment category-id="temperosDiferenciados" product-id="000001">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="temperosDiferenciados" product-id="000013">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="temperosDiferenciados" product-id="tomilho">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="tortasBolosFit" product-id="000007">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="tortasBolosFit" product-id="000008">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="tortasBolosFit" product-id="tortaBaunilhaComMorango">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="verduras" product-id="000002"/>
+
+    <category-assignment category-id="verduras" product-id="000004"/>
+
+    <category-assignment category-id="verduras" product-id="rucula"/>
+
+    <recommendation source-id="000010" source-type="product" target-id="000006" type="1">
+        <short-description xml:lang="x-default">Dica da nossa Nutricionista. Compre também:</short-description>
+    </recommendation>
+
+    <recommendation source-id="cesta8produtos" source-type="product" target-id="file" type="1"/>
+
+    <recommendation source-id="cesta8produtos" source-type="product" target-id="tomilho" type="1"/>
+
+</catalog>
