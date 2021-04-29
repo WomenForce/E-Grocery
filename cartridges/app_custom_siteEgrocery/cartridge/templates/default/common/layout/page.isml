@@ -26,7 +26,9 @@
             <isinclude template="/components/footer/pageFooter" />
         </div>
         <div class="error-messaging"></div>
-        
+
+        <div class="modal-background"></div>
+
         <iscontentasset aid="cookie_hint" />
          <!--[if lt IE 10]>
             <isinclude sf-toolkit="off" template="/common/scripts" />
